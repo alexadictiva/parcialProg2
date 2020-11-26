@@ -1,0 +1,194 @@
+body {
+  background-color: #eee;
+}
+/*header*/
+.bg-dark,
+.dropdown-menu {
+  background: lightcoral !important;
+}
+.dropdown-item:hover {
+  background: rgb(148, 25, 25) !important;
+}
+.nav-link,
+.dropdown-item {
+  text-transform: uppercase;
+  color: white !important;
+}
+.dropdown-item a {
+  color: white;
+}
+.btn-success {
+  background-color: rgb(224, 69, 69);
+  border: none;
+}
+/*main*/
+.body-about {
+  margin-top: 40px;
+}
+.card {
+  padding: 0 4px;
+  margin-bottom: 10px;
+}
+.accion {
+  line-height: 30px;
+}
+.accion-descripcion {
+  font-size: 27px;
+}
+.info-log {
+  font-size: 13px;
+}
+/*empiezan estilos del carrusel personalizado*/
+.acordeon {
+  overflow: scroll;
+  padding: 30px;
+  position: relative;
+}
+.acordeon::-webkit-scrollbar {
+  height: 5px;
+  width: 0vw;
+}
+
+.acordeon::-webkit-scrollbar-thumb {
+  background-color: lightcoral;
+  border-radius: 50px;
+  box-shadow: 2px 1px 5px red inset;
+  width: 8px;
+}
+.acordeon__title {
+  margin: 30px 30px 0;
+  font-size: 25px;
+  position: absolute;
+}
+.acordeon__container {
+  white-space: nowrap;
+  margin-top: 80px;
+  margin-bottom: 35px;
+  padding-bottom: 10px;
+}
+
+.acordeon-item {
+  width: 200px;
+  height: 250px;
+  border-radius: 50px;
+  overflow: hidden;
+  margin-right: 10px;
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.5s all;
+  transform-origin: center left;
+  position: relative;
+}
+.acordeon-item:hover ~ .acordeon-item {
+  transform: translate3d(100px, 0, 0);
+}
+.acordeon__container:hover .acordeon-item {
+  opacity: 0.3;
+}
+.acordeon__container:hover .acordeon-item:hover {
+  transform: scale(1.5);
+  opacity: 1;
+}
+.acordeon-item__img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover; /*propiedad para ajustar la imagen al contenedor*/
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.loquesea {
+  position: absolute;
+  top: 67%;
+  left: 6%;
+  display: none;
+  background: rgba(18, 8, 33, 0.6);
+  border-radius: 10px;
+  padding: 3px 7px;
+}
+
+.acordeon-item__details--title,
+.acordeon-item__details--subtitle {
+  color: white;
+  font-size: 10px;
+  margin: 3px;
+  text-shadow: 1px 1px 3px black;
+  font-weight: bold;
+}
+.acordeon-item:hover .loquesea {
+  display: block;
+}
+.acordeon-item__img:hover {
+  opacity: 1;
+}
+.loquesea:hover.acordeon-item__img {
+  opacity: 1;
+}
+/*finalizan estilos del carrusel personalizado*/
+
+/*inicial estilos del manual*/
+
+.linea-oculta a {
+  border-radius: 50%;
+  border: grey solid 6px;
+  padding: 10px 16px;
+}
+.line {
+  height: 2px;
+  width: 30px;
+  background: grey;
+}
+.mercado .row .col-lg-2 img {
+  height: 180px;
+}
+.lineas-ocultas,
+.line,
+.mercado {
+  display: none;
+}
+/*finaliza estilos del manual*/
+
+/*empieza estilos de vista singin*/
+.container-singing {
+  margin-top: 60px;
+}
+/*finaliza estilos de vista singin*/
+
+/*footer*/
+
+.footer-card,
+.rrss a {
+  color: white;
+}
+
+i {
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-link,
+  .dropdown-item {
+    text-align: end;
+    padding-right: 20px !important;
+  }
+  .form-inline {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .articles article aside a img {
+    height: 300px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .img-dama {
+    height: 300px;
+  }
+  .lineas-ocultas,
+  .line,
+  .mercado {
+    display: flex;
+  }
+}
