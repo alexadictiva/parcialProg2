@@ -77,12 +77,16 @@
               <a class="nav-link" href="#footer">Contactanos</a>
             </li>
             <li class="nav-item pl-4">
+              <?php if (isset($_SESSION['username'])) { ?>
+                Hola, <?php echo $_SESSION['name']; ?>
+              <?php } else { ?>
               <a
                 class="nav-link btn btn-success my-2 my-sm-0"
                 href="indexlogin.php"
                 target="blank"
                 >Ingresar / Registrarse</a
               >
+              <?php } ?>
             </li>
           </ul>
           <form class="form-inline">

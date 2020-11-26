@@ -25,7 +25,7 @@
       $_SESSION['name'] = $user['name']; // Cargo el nombre en la variable de sesión
       $_SESSION['dni'] = $user['dni']; // Cargo el dni en la variable de sesión
       $_SESSION['mail'] = $user['mail']; // Cargo el mail en la variable de sesión
-      header("location: profile.php"); // Redireccionando a la pagina profile.php
+      header("location: index.php"); // Redireccionando a la pagina profile.php
     } else {
       $error = "El correo electrónico o la contraseña es inválida.";
       echo $error;
