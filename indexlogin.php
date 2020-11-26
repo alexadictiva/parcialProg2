@@ -87,8 +87,8 @@
       <section class="login">
         <article class="login__container">
           <h2 class="login__container-title">Iniciar Sesión</h2>
-          
-          <form action="post"  action="loguear.php" class="login__container--form">
+
+          <form method="post" action="loguear.php" class="login__container--form">
             <input type="text" placeholder="Usuario" class="input" name="usuario"/>
             <input type="password" placeholder="Contraseña" class="input" name="password"/>
             <button class="button" type="submit" name="initial">Iniciar Sesión</button>

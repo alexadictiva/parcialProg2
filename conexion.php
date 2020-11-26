@@ -1,3 +1,3 @@
 <?php
-  $conexion = mysqli_connect("localhost", "root", "", "adoore");
+  $conexion = mysqli_connect("localhost", "root", "root", "adoore");
 ?>
