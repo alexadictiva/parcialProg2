@@ -43,7 +43,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#index.html">Inicio </a>
+              <a class="nav-link" href="#index.php">Inicio </a>
             </li>
             <li class="nav-item">
               <a
@@ -53,29 +53,7 @@
                 >Conócenos</a
               >
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Productos
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li class="dropdown-item"><a href="#dama">Damas</a></li>
-
-                <li class="dropdown-item">
-                  <a href="#caballero">Caballeros</a>
-                </li>
-
-                <li class="dropdown-item"><a href="#nino">Niños</a></li>
-                <li class="dropdown-item"><a href="#catalogo">Catálogos</a></li>
-              </ul>
-            </li>
+           
             <li class="nav-item">
               <a class="nav-link" href="#footer">Contactanos</a>
             </li>

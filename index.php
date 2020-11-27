@@ -46,40 +46,22 @@
               <a class="nav-link" href="#">Inicio </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="indexabout.html" target="blank"
+              <a class="nav-link" href="indexabout.php" target="blank"
                 >Conócenos
               </a>
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Productos
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li class="dropdown-item"><a href="#dama">Damas</a></li>
-
-                <li class="dropdown-item">
-                  <a href="#caballero">Caballeros</a>
-                </li>
-
-                <li class="dropdown-item"><a href="#nino">Niños</a></li>
-                <li class="dropdown-item"><a href="#catalogo">Catálogos</a></li>
-              </ul>
-            </li>
+            
             <li class="nav-item">
               <a class="nav-link" href="#footer">Contactanos</a>
             </li>
             <li class="nav-item pl-4">
+              <a class="nav-link">
               <?php if (isset($_SESSION['username'])) { ?>
-                Hola, <?php echo $_SESSION['name']; ?>
+                HOLA, <?php echo $_SESSION['name']; ?>
               <?php } else { ?>
+
+              </a>
+              
               <a
                 class="nav-link btn btn-success my-2 my-sm-0"
                 href="indexlogin.php"
@@ -571,37 +553,52 @@
             <img src="img/marcas/andressa.jpg" alt="marca andressa" />
           </aside>
           <aside class="col-lg-2">
-            <img src="img/marcas/andressa.jpg" alt="marca andressa" />
+            <img src="img/marcas/bk.jpg" alt="marca andressa" />
           </aside>
           <aside class="col-lg-2">
-            <img src="img/marcas/andressa.jpg" alt="marca andressa" />
+            <img src="img/marcas/mk.jpg" alt="marca andressa" />
           </aside>
           <aside class="col-lg-2">
-            <img src="img/marcas/andressa.jpg" alt="marca andressa" />
+            <img src="img/marcas/sigry.jpg" alt="marca andressa" />
           </aside>
           <aside class="col-lg-2">
-            <img src="img/marcas/andressa.jpg" alt="marca andressa" />
+            <img src="img/marcas/tiento.jpg" alt="marca andressa" />
           </aside>
           <aside class="col-lg-2">
-            <img src="img/marcas/andressa.jpg" alt="marca andressa" />
+            <img src="img/marcas/belen.jpg" alt="marca andressa" />
+          </aside>
+          <aside class="col-lg-2 mb-4">
+            <img src="img/marcas/coramina.jpg" alt="marca andressa" />
           </aside>
           <aside class="col-lg-2">
-            <img src="img/marcas/andressa.jpg" alt="marca andressa" />
+            <img src="img/marcas/kaury.jpg" alt="marca andressa" />
           </aside>
           <aside class="col-lg-2">
-            <img src="img/marcas/andressa.jpg" alt="marca andressa" />
+            <img src="img/marcas/crislatina.jpg" alt="marca andressa" />
           </aside>
           <aside class="col-lg-2">
-            <img src="img/marcas/andressa.jpg" alt="marca andressa" />
+            <img src="img/marcas/lara.jpg" alt="marca andressa" />
           </aside>
           <aside class="col-lg-2">
-            <img src="img/marcas/andressa.jpg" alt="marca andressa" />
+            <img src="img/marcas/xy.jpg" alt="marca andressa" />
           </aside>
           <aside class="col-lg-2">
-            <img src="img/marcas/andressa.jpg" alt="marca andressa" />
+            <img src="img/marcas/maia.jpg" alt="marca andressa" />
           </aside>
-          <aside class="col-lg-2">
-            <img src="img/marcas/andressa.jpg" alt="marca andressa" />
+           <aside class="col-lg-2">
+            <img src="img/marcas/intimates.jpg" alt="marca andressa" />
+          </aside>
+           <aside class="col-lg-2">
+            <img src="img/marcas/vintage.jpg" alt="marca andressa" />
+          </aside>
+           <aside class="col-lg-2">
+            <img src="img/marcas/natubel.jpg" alt="marca andressa" />
+          </aside>
+           <aside class="col-lg-2">
+            <img src="img/marcas/lody.jpg" alt="marca andressa" />
+          </aside>
+           <aside class="col-lg-2">
+            <img src="img/marcas/lodymen.jpg" alt="marca andressa" />
           </aside>
         </article>
       </section>

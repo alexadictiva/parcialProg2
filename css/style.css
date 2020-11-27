@@ -12,7 +12,7 @@ body {
 .nav-link,
 .dropdown-item {
   text-transform: uppercase;
-  color: white !important;
+  color: white;
 }
 .dropdown-item a {
   color: white;
@@ -22,6 +22,7 @@ body {
   border: none;
 }
 /*main*/
+
 .body-about {
   margin-top: 40px;
 }
